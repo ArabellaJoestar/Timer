@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronometro</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <section class="container">
+        <div id="boxPrincipal">
+      <h1>Cronômetro</h1>
+        <p id="contador">00:00:00</p>
+        <div>
+                <input type="submit" id="start" value="START" onclick="iniciar()">
+                <input type="submit" id="stop" value="STOP" onclick="parar()">
+                <input type="submit" id="volta" name="zerar" value="ZERAR" onclick="zerar()">
+                <input type='submit' id="salva" value="VOLTA" onclick="volta()">
+        </div>
+        <section id="salvador"></section>
+    </section>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
